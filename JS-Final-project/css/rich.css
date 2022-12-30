@@ -1,0 +1,20 @@
+.card {
+  background-color: sandybrown;
+  border: 5px solid sandybrown;
+  color: rgb(62, 49, 14);
+  /* display: flex; */
+  width: 250px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.rich-man-card {
+  width: 470px !important;
+  height: 650px !important;
+}
+
+body {
+  background-color: lightgray;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

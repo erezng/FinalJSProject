@@ -1,0 +1,42 @@
+.show {
+  display: flex;
+}
+.animal-show-case img {
+  margin: 8px;
+  padding: 8px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.chosen-animal {
+  border-radius: 8px;
+  border: 3px dashed teal;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#animal-show-case {
+  background-image: repeating-linear-gradient(
+    darkgray,
+    white 25%,
+    lightblue 25%
+  );
+  width: 1200px;
+  border-right: 100px solid green;
+  border-left: 100px solid red;
+  border-top: 20px dashed black;
+  border-bottom: 20px dashed black;
+}
+#winner {
+  display: flex;
+  text-align: center;
+  font-size: 10rem;
+  color: teal;
+}
